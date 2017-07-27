@@ -13,7 +13,7 @@ class App extends Component {
       projectId: 'auth-7816b',
       storageBucket: 'auth-7816b.appspot.com',
       messagingSenderId: '724296661770'
-    })
+    });
   }
   render() {
     return (
@@ -21,7 +21,7 @@ class App extends Component {
         <Header headerText="Authentication" />
         <LoginForm />
       </View>
-    )
+    );
   }
 }
 
